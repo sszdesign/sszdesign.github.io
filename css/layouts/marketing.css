@@ -96,7 +96,7 @@ a.pure-button-primary {
     box-shadow: 0 1px 1px rgba(0,0,0, 0);
 }
 .home-menu {
-    background: #ffffff;
+    background: #;
 }
 .pure-menu.pure-menu-fixed {
     /* Fixed menus normally have a border at the bottom. */
@@ -118,11 +118,12 @@ a.pure-button-primary {
 .home-menu a {
     color: rgb(200,200,200);
 }
-.home-menu li a:hover, 
+.home-menu li a:hover,
+
 .home-menu li a:focus {
     background: none;
     border: none;
-    color: #000000;
+    color: rgb(200,200,200);
 }
 
 
