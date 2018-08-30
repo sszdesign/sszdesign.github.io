@@ -43,6 +43,7 @@
         max-width: 800px;
         margin-bottom: 50px;
         line-height: 1.6em;
+        /*transition: all 0.5s;*/
             }
 
         .lcontent {
@@ -51,7 +52,37 @@
         max-width: 1300px;
         margin-bottom: 50px;
         line-height: 1.6em;
+        /*transition: all 0.5s;*/
             }
+
+        .headbarhover{
+/*            background: red;*/
+            /*height: 100px;*/
+            transition: all 0.5s;
+            /*transition-timing-function: ease;*/
+/*            -moz-transition: all 1s;
+            -webkit-transition: all 1s;
+            -o-transition:all 1s;*/
+        }
+        .headbarhover:hover{
+/*            background: green;*/
+            font-size: 110%;
+
+/*            height: 200px;*/
+        }
+
+        .logohover{
+        transition: all 0.5s;
+
+        /*transition-timing-function: ease;*/
+        }
+
+        .logohover:hover{
+        font-size: 120%;
+        /*font-size: 1.6em;*/
+        }
+
+
 
 
     	   h3{
@@ -115,18 +146,18 @@
 
 
 
-<div class="header"  >
-    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed" style="background-color: rgba(255,255,255,1); ">
-        <a class="pure-menu-heading" style="color: rgb(0,0,0);" href="">
-            <i class="iconfont icon-logo" style="font-size: 130%;"></i>
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed" style="background-color: rgba(255,255,255,1); height: 3em">
+        <a class="pure-menu-heading logohover" style="color: rgb(0,0,0); transition: all 0.5s; margin: 0.2em" href=""> 
+            <i class="iconfont icon-logo " style="font-size: 1.4em;"></i>
         </a>
 
-        <ul class="pure-menu-list" style="font-size: 77%; " >
+        <ul class="pure-menu-list" style="font-size: 77% ;" >
 
 <!--             <li class="pure-menu-item pure-menu-selected" ><a href="#" class="pure-menu-link" ">PROJECTS</a></li> -->
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link" style="color: #000000;">PROJECTS</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">BLOG</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">ABOUT</a></li>
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link headbarhover" style="color: #000000;">PROJECTS</a></li>
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link headbarhover">BLOG</a></li>
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link headbarhover">ABOUT</a></li>
         </ul>
     </div>
 </div>
