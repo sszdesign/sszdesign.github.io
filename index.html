@@ -23,7 +23,14 @@
 
 
 
-  <link rel="stylesheet" href="css/layouts/marketing.css">
+    <link rel="stylesheet" href="css/layouts/marketing.css">
+
+
+    <!-- AniJS-CSS -->
+
+    <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
+
+
 
 
 
@@ -81,6 +88,40 @@
         font-size: 120%;
         /*font-size: 1.6em;*/
         }
+
+        .hvr-grow {
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+    }
+       .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+        .hvr-logogrow {
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+    }
+       .hvr-logogrow:hover, .hvr-logogrow:focus, .hvr-logogrow:active {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+
 
 
 
@@ -148,16 +189,16 @@
 
 <div class="header">
     <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed" style="background-color: rgba(255,255,255,1); height: 3em">
-        <a class="pure-menu-heading logohover" style="color: rgb(0,0,0); transition: all 0.5s; margin: 0.2em" href=""> 
+        <a class="pure-menu-heading hvr-logogrow" style="color: rgb(0,0,0); transition: all 0.5s; margin: 0.2em" href=""> 
             <i class="iconfont icon-logo " style="font-size: 1.4em;"></i>
         </a>
 
         <ul class="pure-menu-list" style="font-size: 77% ;" >
 
 <!--             <li class="pure-menu-item pure-menu-selected" ><a href="#" class="pure-menu-link" ">PROJECTS</a></li> -->
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link headbarhover" style="color: #000000;">PROJECTS</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link headbarhover">BLOG</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link headbarhover">ABOUT</a></li>
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link hvr-grow" style="color: #000000;">PROJECTS</a></li>
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link hvr-grow">BLOG</a></li>
+            <li class="pure-menu-item"><a href="#" class="pure-menu-link hvr-grow">ABOUT</a></li>
         </ul>
     </div>
 </div>
@@ -180,6 +221,14 @@
 
                     <h4> made it a great grid system <br> love coding</h4>
 
+                <div data-anijs="if: click, do: flipInY animated">
+                    <p>FFFFFFFFFFFFFFFFFFF
+
+                    if: load, on: window, do: swing animated
+
+                     </p>
+                 </div>
+
 
 
                     <br>
@@ -201,17 +250,23 @@
 <!-- <p>This is referance about the image.</p> -->
 </div>
 
-                <div class="scontent">
+            <div class="scontent">
                 <div class="pure-u-1"> 
                        <p>I had a very special Christmas day last year. I experienced the western style festival. There was a new foreign teacher taught us the lesson. She was about 50 years old and she was very kind and we all liked her. On Christmas Day, she brought us the desserts she made early in the morning. We enjoyed the home-made cakes. What's more, she invited us to came to her house and spent the day with her. Then for the first time, I ate big turkey, which was so delicious. The turkey was filled with many stuffs and the flavor was so good. After dinner, we sang songs and danced. </p>
 
                        <br><br><br><br>
                 </div>
-                </div>
+
+
+            </div>
 
 
 
 
+<!-- Anijs -->
+<script src="https://anijs.github.io/lib/anijs/anijs-min.js"></script>   
+  <!-- Include to use $addClass, $toggleClass or $removeClass -->
+<script src="https://anijs.github.io/lib/anijs/helpers/dom/anijs-helper-dom-min.js"></script>
 </body>
 </html>
 
