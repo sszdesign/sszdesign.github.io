@@ -1,1 +1,9 @@
 # sszdesign.github.io
+
+## Licensing
+
+### Code
+The code in this repository is licensed under the [MIT License](./LICENSE).
+
+### Content
+All images, designs, and written content in this portfolio are licensed under the [Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
