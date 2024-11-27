@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="darkreader" content="false">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://rsms.me/" crossorigin>
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+        <link rel="stylesheet" href="../../comp/zsStyle.css">           
+        <script src="../../comp/zsComp.js"></script>
+        <title>zsdesign - Pattern Based Design Generation</title> 
+    </head>
+    <style>
+        div{
+            outline: darkblue dashed 2px;
+        }
+        span{
+            /* outline: darkblue dashed 2px; */
+            background-color: #00000011;
+        }
+    </style>
+    <body>
+        <!-- <div class="grid-1-4">1/4</div>
+        <div class="grid-1-4">1/4</div>
+        <div class="grid-1-4">1/4</div>
+        <div class="grid-1-4">1/4</div>
+        <div class="grid-1-2">1/2</div>
+        <div class="grid-1-2">1/2</div>
+        <div class="grid-3-4">3/4</div>
+        <div class="grid-1-4">1/4</div>
+        <div class="grid-1-1">1/1</div> -->
+    </body>
+    <script>
+        new zsComp.renderHeaderAndMainDiv().render();
+        new zsComp.header("mainPage").render();
+        new zsComp.sampleText("mainPage","projectTitle").render();
+        new zsComp.bottomButton("mainPage","Go to full introduction ->","https://www.baidu.com/").render()
+        new zsComp.projectTitle("mainPage","Hello:)","I'm Shon").render()
+        new zsComp.sampleText("mainPage","projectTitleSubTextFrame").render();
+        new zsComp.projectTitleSubTextFrame("mainPage","projectTitleSubTextFrameprojectTitleSubTextFrameprojectTitleSubTextFrameprojectTitl\nSubTextFrameprojectTitleSubTextFrameprojectTitleSubTextFrameprojectTitleSubTextFrameprojectTitleSubTextFrame").render()
+        new zsComp.sampleText("mainPage","textFrame 1/1").render();
+        new zsComp.textFrame("mainPage","1/1","textFrameTitle","").render()
+        new zsComp.textFrame("mainPage","1/1","","textFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraph").render()  
+        new zsComp.textFrame("mainPage","1/1","textFrameTitle","textFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraph").render()
+        new zsComp.sampleText("mainPage","textFrame 1/2").render();
+        new zsComp.textFrame("mainPage","1/2","textFrameTitle","").render()
+        new zsComp.textFrame("mainPage","1/2","","textFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraph").render()  
+        new zsComp.textFrame("mainPage","1/2","textFrameTitle","textFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraphtextFrameParagraph").render()
+        new zsComp.sampleText("mainPage","projecrDescriptionFrame").render();
+        new zsComp.descriptionFrame("mainPage","Sit amet, consectetur","Sit amet, consectetur").render()
+        new zsComp.sampleText("mainPage","projectCard").render();
+        new zsComp.projectCard("mainPage","../data/index/cover-0.png","projectCard-description-h1","projectCard-description-h2","/index.html").render()
+        new zsComp.sampleText("mainPage","shoutOutText-M").render();
+        new zsComp.shoutOutText("mainPage","“To design is to plan, to order, to relate, and to control. In short, it opposes all means of disorder and accident.” -- Emil Ruder","M").render()
+        new zsComp.sampleText("mainPage","shoutOutText-R").render();
+        new zsComp.shoutOutText("mainPage","“To design is to plan, to order, to relate, and to control. In short, it opposes all means of disorder and accident.” -- Emil Ruder","R").render()
+        new zsComp.sampleText("mainPage","ImgFrame").render();
+        new zsComp.imgFrame("mainPage","1/4","../data/cover-6.png","Red ultrices dui. Aliquam erat volutpats").render()
+        new zsComp.imgFrame("mainPage","1/4","../data/cover-6.png","Red ultrices dui. Aliquam erat volutpats").render()
+        new zsComp.imgFrame("mainPage","1/4","../data/cover-6.png","Red ultrices dui. Aliquam erat volutpats").render()
+        new zsComp.imgFrame("mainPage","1/4","../data/cover-6.png","Red ultrices dui. Aliquam erat volutpats").render()
+        new zsComp.imgFrame("mainPage","1/2","../data/cover-6.png","Red ultrices dui. Aliquam erat volutpats").render()
+        new zsComp.imgFrame("mainPage","1/2","../data/cover-6.png","Red ultrices dui. Aliquam erat volutpats").render()
+        new zsComp.imgFrame("mainPage","3/4","../data/cover-6.png","Red ultrices dui. Aliquam erat volutpats").render()
+        new zsComp.imgFrame("mainPage","1/1","../data/cover-6.png","Red ultrices dui. Aliquam erat volutpats").render()
+        new zsComp.sampleText("mainPage","dividerLine").render();
+        new zsComp.dividerLine("mainPage").render();
+        new zsComp.sampleText("mainPage","dividerSpacing").render();
+        new zsComp.dividerSpacing("mainPage").render();
+        new zsComp.shoutOutTextEmil("mainPage").render()
+        new zsComp.sampleText("mainPage","videoFrame").render();
+        new zsComp.videoFrame("mainPage","1/1","../data/br.mp4","../data/index/br.png","123").render()
+        new zsComp.videoFrame("mainPage","1/2","../data/br.mp4","../data/index/br.png","123").render()
+        new zsComp.videoFrame("mainPage","3/4","../data/br.mp4","../data/index/br.png","123").render()
+        new zsComp.videoFrame("mainPage","1/4","../data/br.mp4","../data/index/br.png","123").render()
+    </script>
+</html>
