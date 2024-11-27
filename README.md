@@ -1,5 +1,9 @@
 # sszdesign.github.io
 
+This is my portfolio site.
+
+All content has been blurred in accordance with relevant processes and policies, or has been publicly published, and does not contain any sensitive business data.
+
 ## Licensing
 
 ### Code
